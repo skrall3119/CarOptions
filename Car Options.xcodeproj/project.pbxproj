@@ -13,6 +13,13 @@
 		FA9C4E60250EF4D100BF6949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9C4E5E250EF4D100BF6949 /* Main.storyboard */; };
 		FA9C4E62250EF4D300BF6949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9C4E61250EF4D300BF6949 /* Assets.xcassets */; };
 		FA9C4E65250EF4D300BF6949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9C4E63250EF4D300BF6949 /* LaunchScreen.storyboard */; };
+		FA9C4E6D250FD75900BF6949 /* TiresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E6C250FD75900BF6949 /* TiresViewController.swift */; };
+		FA9C4E6F250FD7B700BF6949 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E6E250FD7B700BF6949 /* ColorsViewController.swift */; };
+		FA9C4E71250FD7D400BF6949 /* EnginesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E70250FD7D400BF6949 /* EnginesViewController.swift */; };
+		FA9C4E73250FD7EE00BF6949 /* AccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E72250FD7EE00BF6949 /* AccessViewController.swift */; };
+		FA9C4E75250FD85E00BF6949 /* TintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E74250FD85E00BF6949 /* TintsViewController.swift */; };
+		FA9C4E77250FD8D100BF6949 /* SeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E76250FD8D100BF6949 /* SeatsViewController.swift */; };
+		FA9C4E79250FEC8200BF6949 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C4E78250FEC8200BF6949 /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		FA9C4E61250EF4D300BF6949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9C4E64250EF4D300BF6949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9C4E66250EF4D300BF6949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9C4E6C250FD75900BF6949 /* TiresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiresViewController.swift; sourceTree = "<group>"; };
+		FA9C4E6E250FD7B700BF6949 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		FA9C4E70250FD7D400BF6949 /* EnginesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnginesViewController.swift; sourceTree = "<group>"; };
+		FA9C4E72250FD7EE00BF6949 /* AccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessViewController.swift; sourceTree = "<group>"; };
+		FA9C4E74250FD85E00BF6949 /* TintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintsViewController.swift; sourceTree = "<group>"; };
+		FA9C4E76250FD8D100BF6949 /* SeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewController.swift; sourceTree = "<group>"; };
+		FA9C4E78250FEC8200BF6949 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				FA9C4E61250EF4D300BF6949 /* Assets.xcassets */,
 				FA9C4E63250EF4D300BF6949 /* LaunchScreen.storyboard */,
 				FA9C4E66250EF4D300BF6949 /* Info.plist */,
+				FA9C4E6C250FD75900BF6949 /* TiresViewController.swift */,
+				FA9C4E6E250FD7B700BF6949 /* ColorsViewController.swift */,
+				FA9C4E70250FD7D400BF6949 /* EnginesViewController.swift */,
+				FA9C4E72250FD7EE00BF6949 /* AccessViewController.swift */,
+				FA9C4E74250FD85E00BF6949 /* TintsViewController.swift */,
+				FA9C4E76250FD8D100BF6949 /* SeatsViewController.swift */,
+				FA9C4E78250FEC8200BF6949 /* ButtonViewController.swift */,
 			);
 			path = "Car Options";
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9C4E6F250FD7B700BF6949 /* ColorsViewController.swift in Sources */,
 				FA9C4E5D250EF4D100BF6949 /* ViewController.swift in Sources */,
+				FA9C4E71250FD7D400BF6949 /* EnginesViewController.swift in Sources */,
 				FA9C4E59250EF4D100BF6949 /* AppDelegate.swift in Sources */,
+				FA9C4E73250FD7EE00BF6949 /* AccessViewController.swift in Sources */,
+				FA9C4E75250FD85E00BF6949 /* TintsViewController.swift in Sources */,
+				FA9C4E6D250FD75900BF6949 /* TiresViewController.swift in Sources */,
+				FA9C4E77250FD8D100BF6949 /* SeatsViewController.swift in Sources */,
+				FA9C4E79250FEC8200BF6949 /* ButtonViewController.swift in Sources */,
 				FA9C4E5B250EF4D100BF6949 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

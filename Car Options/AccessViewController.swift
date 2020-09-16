@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  AccessViewController.swift
 //  Car Options
 //
-//  Created by Alex Janci on 9/13/20.
+//  Created by Alex Janci on 9/14/20.
 //  Copyright © 2020 Alex Janci. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AccessViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-
